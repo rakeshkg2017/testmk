@@ -8,7 +8,7 @@ using System.IO;
 using System.Threading.Tasks;
 using MLModel_WebApi1;
 
-// Configure app
+// Configure appj
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPredictionEnginePool<MLModel.ModelInput, MLModel.ModelOutput>()
