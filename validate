@@ -1,6 +1,10 @@
 {
-    "local": true,
-    "code": 200,
-    "key": "true",
-    "active": 1
+    "success": true,
+    "message": "No error",
+    "data": {
+        "purchase_id": "123456",
+        "purchase_code": "ABCDEF123456",
+        "status": "valid",
+        "message": "License key is valid and active."
+    }
 }
